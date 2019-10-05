@@ -7,8 +7,8 @@
 Integrantes - (Usuarios Github:):
 --
 
-1.- <b>nombre_completo1</b><br>
-    <i>usuario_github1</i>
+1.- <b>Owen Rivaldo Atamari Aldazabal</b><br>
+    <i>theowex</i>
 
 2.- <b>nombre_completo2</b><br>
     <i>usuario_github2</i>
