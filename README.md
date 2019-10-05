@@ -10,8 +10,8 @@ Integrantes - (Usuarios Github:):
 1.- <b>Owen Rivaldo Atamari Aldazabal</b><br>
     <i>theowex</i>
 
-2.- <b>nombre_completo2</b><br>
-    <i>usuario_github2</i>
+2.- <b>Antonio Manuel Zegarra Becerra</b><br>
+    <i>Antonio-Zegarra-Becerra</i>
 
 3.- <b>nombre_completo3</b><br>
     <i>usuario_github3</i>
