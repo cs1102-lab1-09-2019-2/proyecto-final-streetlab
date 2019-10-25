@@ -11,7 +11,7 @@ Integrantes - (Usuarios Github:):
     <i>theowex</i>
 
 2.- <b>Antonio Manuel Zegarra Becerra</b><br>
-    <i>Antonio-ZegarraBecerra</i>
+    <i>Antonio-Zegarra-Becerra</i>
 
 3.- <b>nombre_completo3</b><br>
     <i>usuario_github3</i>
