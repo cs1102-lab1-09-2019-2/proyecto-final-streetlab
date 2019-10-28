@@ -8,13 +8,13 @@ Integrantes - (Usuarios Github):
 --
 
 1.- <b>Owen Rivaldo Atamari Aldazabal</b><br>
-    <i>a.k.a. "theowex"</i>
+    <i>        theowex</i>
 
 2.- <b>Antonio Manuel Zegarra Becerra</b><br>
-    <i>a.k.a. "Antonio-Zegarra-Becerra"</i>
+    <i>        Antonio-Zegarra-Becerra</i>
 
 3.- <b>Javier Enrique Chávez Argueta</b><br>
-    <i>a.k.a. "JayIsBae"</i>
+    <i>        JayIsBae</i>
 
 Instrucciones:
 --
