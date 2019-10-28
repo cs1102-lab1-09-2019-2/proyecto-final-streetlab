@@ -4,17 +4,17 @@
     Nombre del Grupo: <b>StreetLab</b>
 </div>
 
-Integrantes - (Usuarios Github:):
+Integrantes - (Usuarios Github):
 --
 
 1.- <b>Owen Rivaldo Atamari Aldazabal</b><br>
-    <i>theowex</i>
+    <i>a.k.a. "theowex"</i>
 
 2.- <b>Antonio Manuel Zegarra Becerra</b><br>
-    <i>Antonio-Zegarra-Becerra</i>
+    <i>a.k.a. "Antonio-Zegarra-Becerra"</i>
 
 3.- <b>Javier Enrique Chávez Argueta</b><br>
-    <i>JayIsBae</i>
+    <i>a.k.a. "JayIsBae"</i>
 
 Instrucciones:
 --
