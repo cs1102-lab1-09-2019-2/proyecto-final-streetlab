@@ -1,7 +1,7 @@
 # Proyecto de Programación Orientado a Objetos
 
-<div style="text-align:center; font-size: 15px;">
-    <b>StreetLab</b>
+<div style="text-align:center; font-size: 20px;">
+    Nombre del Grupo: <b>StreetLab</b>
 </div>
 
 Integrantes - (Usuarios Github:):
