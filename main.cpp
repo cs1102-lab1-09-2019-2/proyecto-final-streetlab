@@ -21,7 +21,7 @@ int main() {
     int x;
     int p = 0, a, b, c, d;
     ifstream inFile;
-    inFile.open("C:\\Users\\owena\\Downloads\\labmavis.txt", ios::in);
+    inFile.open("labmavis.txt", ios::in);
     if (!inFile) {
         cout << "El archivo no se encontro :(";
         exit(1); // terminate with error
