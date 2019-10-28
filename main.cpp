@@ -23,8 +23,8 @@ int main() {
     ifstream inFile;
     inFile.open("labmavis.txt", ios::in);
     if (!inFile) {
-        cout << "El archivo no se encontro :(";
-        exit(1); // terminate with error
+        cout << "El archivo no pudo ser encontrado:(";
+        exit(1);
     }
     cout<<"Mapa:"<<endl;
     while (!inFile.eof()) {
