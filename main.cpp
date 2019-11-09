@@ -6,14 +6,6 @@
 using namespace std;
 
 int main() {
-    cout<<" ad88888ba                                                         88                       88           \n"
-          "d8\"     \"8b    ,d                                           ,d     88                       88           \n"
-          "Y8,            88                                           88     88                       88           \n"
-          "`Y8aaaaa,    MM88MMM  8b,dPPYba,   ,adPPYba,   ,adPPYba,  MM88MMM  88           ,adPPYYba,  88,dPPYba,   \n"
-          "  `\"\"\"\"\"8b,    88     88P'   \"Y8  a8P_____88  a8P_____88    88     88           \"\"     `Y8  88P'    \"8a  \n"
-          "        `8b    88     88          8PP\"\"\"\"\"\"\"  8PP\"\"\"\"\"\"\"    88     88           ,adPPPPP88  88       d8  \n"
-          "Y8a     a8P    88,    88          \"8b,   ,aa  \"8b,   ,aa    88,    88           88,    ,88  88b,   ,a8\"  \n"
-          " \"Y88888P\"     \"Y888  88           `\"Ybbd8\"'   `\"Ybbd8\"'    \"Y888  88888888888  `\"8bbdP\"Y8  8Y\"Ybbd8\"' "<<endl<<endl;
     string texto;
     vector<vector<int>> matriz;
     int j = 0;
@@ -21,7 +13,7 @@ int main() {
     int x;
     int p = 0, a, b, c, d;
     ifstream inFile;
-    inFile.open("C:\\Users\\owena\\Downloads\\labmavis.txt", ios::in);
+    inFile.open("labmavis.txt", ios::in);
     if (!inFile) {
         cout << "El archivo no pudo ser encontrado :(";
         exit(1);
