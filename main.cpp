@@ -21,9 +21,9 @@ int main() {
     int x;
     int p = 0, a, b, c, d;
     ifstream inFile;
-    inFile.open("labmavis.txt", ios::in);
+    inFile.open("C:\\Users\\owena\\Downloads\\labmavis.txt", ios::in);
     if (!inFile) {
-        cout << "El archivo no pudo ser encontrado:(";
+        cout << "El archivo no pudo ser encontrado :(";
         exit(1);
     }
     cout<<"Mapa:"<<endl;
@@ -72,42 +72,44 @@ int main() {
         }
         p++;
         ///////
-        /*for (int y = 0; y < matriz.size(); y++) {
+        for (int y = 0; y < matriz.size(); y++) {
             for (int x = 0; x < matriz[y].size(); x++){
                 cout <<setw(4) <<setfill(' ')<<matriz[y][x];
             }
             cout << endl;
         }
-        cout << endl;*/
+        cout << endl;
     }while(matriz[d][c] == -1);
     cout<<endl<<"Mapa con ruta:"<<endl;
+    matriz[d][c] = -4;
     for (int k = p - 1; k > 0; k--) {
         if ((c+1 < matriz[0].size()) && matriz[d][c + 1] == k) {
-            matriz[d][c + 1] = 1;
+            matriz[d][c + 1] = -5;
             c++;
         }
         else if ((c - 1 >= 0) && matriz[d][c - 1] == k) {
-            matriz[d][c - 1] = 1;
+            matriz[d][c - 1] = -5;
             c--;
         }
         else if ((d + 1 < matriz.size()) && matriz[d + 1][c] == k) {
-            matriz[d + 1][c] = 1;
+            matriz[d + 1][c] = -5;
             d++;
         }
         else if ((d - 1 >= 0) && matriz[d - 1][c] == k) {
-            matriz[d - 1][c] = 1;
+            matriz[d - 1][c] = -5;
             d--;
         }
     }
+
     for (int y = 0; y < matriz.size(); y++) {
         for (int x = 0; x < matriz[y].size(); x++){
-            if(matriz[y][x] == 1)
+            if(matriz[y][x] == -5)
                 cout <<setw(4) <<setfill(' ')<<'.';
             else if(matriz[y][x] == -2)
                 cout <<setw(4) <<setfill(' ')<<1;
             else if(matriz[y][x] == 0)
                 cout <<setw(4) <<setfill(' ')<<'X';
-            else if(matriz[y][x] == p)
+            else if(matriz[y][x] == -4)
                 cout <<setw(4) <<setfill(' ')<<'F';
             else
                 cout <<setw(4) <<setfill(' ')<<0;
