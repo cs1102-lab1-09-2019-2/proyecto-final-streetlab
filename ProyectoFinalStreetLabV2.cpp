@@ -7,6 +7,7 @@ using namespace std;
 
 class Mapa {
 public:
+  string texto;
 	ifstream inFile;
 	vector<vector<int>> matriz;
 	int j = 0;
@@ -43,7 +44,7 @@ public:
 			j++;
 		}
 	}
-}
+
 void calcularRuta() {
 	do {
 		for (int y = 0; y < matriz.size(); y++) {
@@ -112,13 +113,13 @@ void mostrarResultado() {
 	cout << "StreetLab Team 2019 \251";
 }
 ~Mapa() {}
-}
+};
 
-class Archivo {
+class Archivo : public Mapa {
 private:
 	string ruta;
 public:
-	archivo() {}
+	Archivo() {}
 	void setRuta() {
 		string _ruta;
 		cout << "Ingrese la ruta donde se encuentra el archivo. La sintaxis es: [Ejemplo]" << endl;
@@ -128,7 +129,7 @@ public:
 	}
 
 	void abrirMapa() {
-		inFile.open("C:\\Users\\Javier Chavez\\Downloads\\labmavis.txt", ios::in);
+		inFile.open(ruta, ios::in);
 		if (!inFile) {
 			cout << "El archivo no pudo ser encontrado :(";
 			exit(1);
@@ -139,7 +140,7 @@ public:
 		inFile.close();
 	}
 	~Archivo() {}
-}
+};
 
 int main() {
 	Archivo archivo;
