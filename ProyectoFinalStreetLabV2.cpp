@@ -151,4 +151,4 @@ int main() {
 	mapa.calcularRuta();
 	mapa.mostrarResultado();
 	archivo.cerrarMapa();
-}
+} 
